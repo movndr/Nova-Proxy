@@ -5,8 +5,10 @@
   "description": "Nova Proxy — all-in-one VLESS/Trojan/Shadowsocks proxy panel on a Cloudflare Worker (D1, users, Telegram bot, WARP, optional backend mode).",
   "main": "worker.js",
   "scripts": {
-    "deploy": "wrangler deploy"
-  },
+    "build": "echo 'No build needed'",
+    "deploy": "wrangler deploy",
+    "version": "wrangler versions upload"
+},
   "cloudflare": {
     "label": "Nova Proxy",
     "products": ["Workers", "D1"],
